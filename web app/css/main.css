@@ -1,0 +1,14 @@
+body,
+html
+{
+	min-height: 100%;
+
+}
+
+body
+{
+	background-image:url(tril2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}

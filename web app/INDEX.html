@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	 <title>tour nepal my web page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+ <link rel="stylesheet" type="text/css" href="css/main.css">
+
+
+<style type="text/css">
+	.reg
+	{
+		margin: auto;
+		border: 3px solid green;
+	}
+</style>
+
+<style>
+  .container {
+      padding: 80px 120px;
+      background-color: #ffffff;
+
+  }
+  .pic {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.95;
+  }
+  .pic:hover {
+      border-color: #ffffff;
+  }
+  </style>
+
+</head>
+<body>
+
+
+	<!-- nav -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Tour Nepal</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+      </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          package
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">2 day package</a>
+          <a class="dropdown-item" href="#">5 day package</a>
+          
+
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">special package</a>
+          <a class="dropdown-item" href="#">couple package</a>
+          
+        </div>
+
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="css/contact.html">Contact us</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="css/about.html">About us</a>
+      </li>
+
+    </ul>
+    
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search Here" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+  </div>
+</nav>
+<!-- nav end -->
+
+<!-- login AND REGISTRATION form -->
+<!-- ///////////////////////////////////////////////////////////////////////////////////////////// -->
+	<div class="container">		
+						       <h2>Registration form</h2>
+
+                <div class="form-group">
+<!-- name -->
+                    <label for="firstName" class="col-sm-3 control-label">Name</label>
+                    <div class="col-sm-9">
+                        <input type="text" id="firstName" placeholder="Full Name" class="form-control" autofocus>
+                    </div>
+                </div>
+<!-- emali -->
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Email</label>
+                    <div class="col-sm-9">
+                        <input type="email" id="email" placeholder="email@example.com" class="form-control">
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label for="email" class="col-sm-3 control-label">Contact number</label>
+                    <div class="col-sm-9">
+                        <input type="tel" id="telNo" placeholder="98********" class="form-control" size="12">
+                    </div>
+                </div>
+
+
+<!-- password -->
+                <div class="form-group">
+                    <label for="password" class="col-sm-3 control-label">Password</label>
+                    <div class="col-sm-9">
+                        <input type="password" id="password" placeholder="Password" class="form-control">
+                    </div>
+                </div>
+<!-- countary select -->
+                 <div class="form-group">
+                    <label for="country" class="col-sm-3 control-label">Country</label>
+                    <div class="col-sm-9">
+                        <select id="country" class="form-control">
+                            <option>Nepal</option>
+                            <option>india</option>
+                            <option>China</option>
+                            <option>usa</option>
+                            <option>pakistan</option>
+                            <option>UAE</option>
+                            <option>Dubai</option>
+                        </select>
+                    </div>
+                </div> 
+<!-- deate of birth select -->   
+
+
+                <div class="form-group">
+                    <label for="country" class="col-sm-3 control-label">Gender</label>
+                    <div class="col-sm-9">
+                        <select id="country" class="form-control">
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Other</option>
+                            
+                          
+                        </select>
+                    </div>
+                </div>              
+               
+<!-- total form (lebel and input type) -->
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Sex</label>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="femaleRadio" value="Female">Female
+                                </label>
+                            </div>
+                            <div class="col-sm-4">
+                                <label class="radio-inline">
+                                    <input type="radio" id="maleRadio" value="Male">Male
+                                </label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+ <!-- checkbox -->   
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">I accept all <a href="css/termsncondition.html">terms and condition</a>
+                            </label>
+                        </div>
+                    </div>
+                </div> 
+
+
+                <div class="form-group">
+                    <div class="col-sm-9 col-sm-offset-3">
+                    	<a href="thank.html">		
+                        	<button type="submit" class="btn btn-primary btn-block">Register</button>
+                    	</a>
+                    </div>
+                </div>
+            </form> 
+<!-- registration form end here -->
+
+        </div> 
+
+    </div>	    
+
+
+<!-- ///////////////////////////////////////////////////////// -->
+
+
+
+<!-- 3 img tile formate -->
+<div class="container text-center">
+  <h3>Tour Nepal</h3>
+  <p><em>we know you love to travel</em></p>
+  <p>Tour with us you will remember for ever</p>
+  <br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>kathmandu</strong></p><br>
+      <img src="css/2.jpg" class="img-circle pic" alt="Random Name" width="255" height="255">
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>manang</strong></p><br>
+      <img src="css/1.jpg" class="img-circle pic" alt="Random Name" width="255" height="255">
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>pokhara</strong></p><br>
+      <img src="css/3.jpg" class="img-circle pic" alt="Random Name" width="255" height="255">
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 3 img tile walla finished -->
+
+
+</body>
+</html>
